@@ -1,7 +1,27 @@
 aid: enough
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enough.png
 name: Enough
-description: Enough is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ENOUGH (brand name ABUNDA) is a food-technology company that produces mycoprotein
+  through a zero-waste fermentation process, growing fungi on grain-derived sugars.
+  Operating as a B2B ingredient supplier to retailers and food brands, ENOUGH makes
+  nutrient-dense, sustainable meat and seafood alternatives — including burgers,
+  chicken-style products, noodles, and snacks — that use dramatically less water and
+  produce far less CO2 than conventional animal protein. The company operates one of
+  the world's largest mycoprotein fermentation facilities and is backed by DCVC. This
+  profile was added to the API Evangelist network as a portfolio lead; ENOUGH is a
+  food-ingredient business and publishes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/enough/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,42 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-provider: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food Technology
+- Alternative Protein
+- Sustainability
+- Fermentation
+- Mycoprotein
+- AgTech
+- Ingredients
 apis: []
+common:
+- type: DomainSecurity
+  url: security/enough-domain-security.yml
+- type: Website
+  url: https://www.enough-food.com/
+- type: Blog
+  url: https://www.enough-food.com/news
+- type: Support
+  url: mailto:info@enough-food.com
+- type: PrivacyPolicy
+  url: https://www.enough-food.com/privacy-policy
+- type: TermsOfService
+  url: https://www.enough-food.com/terms-conditions
+- type: LinkedIn
+  url: https://www.linkedin.com/company/enough-food/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
